@@ -1,0 +1,4 @@
+[submodule "PCB/KicadLibrary"]
+	path = PCB/KicadLibrary
+	url = https://github.com/Warlord3/KicadLibrary.git
+	branch = master
