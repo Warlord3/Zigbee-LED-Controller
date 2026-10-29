@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CustomBattery") (type "KiCad") (uri "${KIPRJMOD}/KicadLibrary/Footprints/CustomBattery.pretty") (options "") (descr ""))
+	(lib (name "CustomMCU") (type "KiCad") (uri "${KIPRJMOD}/KicadLibrary/Footprints/CustomMCU.pretty") (options "") (descr ""))
+	(lib (name "CustomPower") (type "KiCad") (uri "${KIPRJMOD}/KicadLibrary/Footprints/CustomPower.pretty") (options "") (descr ""))
+)

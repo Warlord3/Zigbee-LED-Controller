@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.249999,
+          "width": 0.599999
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,17 +60,38 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.1,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.025,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.7
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|16080000|27480000|045fc0de-988e-48c5-97aa-c559d6e091d4|fb56ec66-3efd-4ea5-ad31-c3528944aeb5",
+          ""
+        ],
+        [
+          "hole_clearance|16080000|27480000|079ac386-b8f9-42d9-a7dc-2e2543df7f49|fb56ec66-3efd-4ea5-ad31-c3528944aeb5",
+          ""
+        ],
+        [
+          "hole_clearance|22180000|27480000|5e2539b2-0517-4ca5-9d4b-3ca49fb6fa79|762b5ab0-bdc8-4802-ad7e-ecc4ae509e15",
+          ""
+        ],
+        [
+          "hole_clearance|22180000|27480000|76720f8b-5717-4ef5-a4aa-979d4e813e74|762b5ab0-bdc8-4802-ad7e-ecc4ae509e15",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|38120000|26890000|66465a72-20d8-4a3c-a70c-e820a127fd6d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -488,8 +509,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "CustomPower"
+    ],
+    "pinned_symbol_libs": [
+      "CustomPower"
+    ]
   },
   "meta": {
     "filename": "ZigbeeLedController.kicad_pro",
@@ -517,11 +542,27 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.0,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 132, 0)",
+        "tuning_profile": "USB"
+      },
+      {
+        "clearance": 0.4,
+        "diff_pair_gap": 0.5,
+        "diff_pair_width": 0.4,
+        "microvia_diameter": 0.4,
+        "microvia_drill": 0.15,
+        "name": "VCC",
+        "pcb_color": "rgb(132, 0, 132)",
         "priority": 0,
-        "schematic_color": "rgb(0, 0, 255)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(132, 0, 132)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -536,7 +577,20 @@
         "USB"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "VCC",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "VCC",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "USB*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -553,7 +607,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -617,14 +671,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S5.1",
+          "name": "KLC_S5.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "MPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -667,7 +751,7 @@
         "uuid": "ae9f20f5-c14a-4433-a833-e7352a08a5d3"
       }
     ],
-    "used_designators": "#PWR29-32,J8-10",
+    "used_designators": "#FLG1-5,#PWR1-32,C1-25,D1,J1-6,J8-10,L1-3,Q1-4,R1-18,SW1-2,TP1-5,U1-6",
     "variants": []
   },
   "sheets": [
@@ -681,6 +765,25 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5836400,
+            "diff_pair_gap": 150000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 323810
+          }
+        ],
+        "profile_name": "USB",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
