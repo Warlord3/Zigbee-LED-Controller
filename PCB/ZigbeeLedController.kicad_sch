@@ -7909,7 +7909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.02 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7942,7 +7942,7 @@
 				)
 			)
 		)
-		(property "MPN" "C307386"
+		(property "MPN" "C307462"
 			(at 33.02 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9174,7 +9174,7 @@
 				)
 			)
 		)
-		(property "MPN" "C307427"
+		(property "MPN" "C19702"
 			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9415,120 +9415,6 @@
 			(project "ZigbeeLedController"
 				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 123.19 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e6bb840-9bb3-4f8e-8201-4b800570ca1b")
-		(property "Reference" "C9"
-			(at 123.952 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 123.698 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 123.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 123.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C5177178"
-			(at 123.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 123.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 123.19 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b5d3775-f9d8-431a-9abc-0f5429bba782")
-		)
-		(pin "1"
-			(uuid "406d2f4a-1c23-47d1-b165-6d215f775498")
-		)
-		(instances
-			(project "ZigbeeLedController"
-				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9992,6 +9878,120 @@
 			(project "ZigbeeLedController"
 				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3601a9d9-1f3c-42cc-9a86-1d96eaa1b3ab")
+		(property "Reference" "C9"
+			(at 123.952 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 123.698 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 123.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C380537"
+			(at 123.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 123.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3af23bdd-5701-4de5-8d64-88fbbef401b0")
+		)
+		(pin "1"
+			(uuid "2d26e94d-5fe4-49cc-896a-69f6223930b2")
+		)
+		(instances
+			(project "ZigbeeLedController"
+				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10642,120 +10642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 115.57 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46cf6c8f-e4ae-4b4e-97cb-9ec82f73b522")
-		(property "Reference" "C8"
-			(at 116.332 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 116.078 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 115.57 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C5177178"
-			(at 115.57 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 115.57 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 115.57 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "25ef4a21-237b-4cac-b533-ea6cef22f8ff")
-		)
-		(pin "1"
-			(uuid "ea2919a0-d64f-4e4a-b703-ad3349425429")
-		)
-		(instances
-			(project "ZigbeeLedController"
-				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 271.78 22.86 0)
 		(unit 1)
@@ -10986,7 +10872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11019,7 +10905,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1591"
+		(property "MPN" "C29936"
 			(at 82.55 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11394,7 +11280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11427,7 +11313,7 @@
 				)
 			)
 		)
-		(property "MPN" "C307386"
+		(property "MPN" "C307462"
 			(at 46.99 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11931,7 +11817,7 @@
 				)
 			)
 		)
-		(property "MPN" "C342629"
+		(property "MPN" "C98192"
 			(at 40.64 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12850,6 +12736,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a3c0377-3266-465a-a065-3c1a24aafeda")
+		(property "Reference" "C8"
+			(at 116.332 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 116.078 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C380537"
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "912f0849-8fa2-4745-8520-b6f71d38b06e")
+		)
+		(pin "1"
+			(uuid "17633af0-453d-4257-8859-31098f4b0da9")
+		)
+		(instances
+			(project "ZigbeeLedController"
+				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 38.1 148.59 0)
 		(unit 1)
@@ -13089,7 +13089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 100.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13122,7 +13122,7 @@
 				)
 			)
 		)
-		(property "MPN" "C5177178"
+		(property "MPN" "C380537"
 			(at 100.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14415,120 +14415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 107.95 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd82f4ab-4e6e-4f86-9442-7ec0ec6a6d16")
-		(property "Reference" "C7"
-			(at 108.712 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 108.458 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 107.95 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 107.95 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C5177178"
-			(at 107.95 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 107.95 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S5.1" ""
-			(at 107.95 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15820fbd-7bb3-4187-b991-1eda1390b452")
-		)
-		(pin "1"
-			(uuid "9eff2b1b-268e-4552-bac4-26ad5f056ad9")
-		)
-		(instances
-			(project "ZigbeeLedController"
-				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 92.71 63.5 0)
 		(unit 1)
@@ -14827,6 +14713,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.95 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d174bad4-8a69-4239-b7c1-bc5b41a52349")
+		(property "Reference" "C7"
+			(at 108.712 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 108.458 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C380537"
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "026c9356-8c9d-4d6c-b0f0-efa09ffa3d77")
+		)
+		(pin "1"
+			(uuid "cd4a934a-9e10-4860-a20c-cd4aca4909eb")
+		)
+		(instances
+			(project "ZigbeeLedController"
+				(path "/ae9f20f5-c14a-4433-a833-e7352a08a5d3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 25.4 63.5 0)
 		(unit 1)
@@ -14975,7 +14975,7 @@
 				)
 			)
 		)
-		(property "MPN" "C342629"
+		(property "MPN" "C98192"
 			(at 26.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15512,7 +15512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15545,7 +15545,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1591"
+		(property "MPN" "C5199872"
 			(at 54.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16386,9 +16386,9 @@
 			"cf49921a-c4fb-4647-aead-10ec83485d1b"
 		)
 	)
-	(group "6-36V to 5V "
-		(uuid "f1c15749-d4aa-4d2f-91fd-8cb419c25c0d")
-		(lib_id "Power:6-36V to 5V ")
+	(group "6-36V to 5V"
+		(uuid "ec9b6d2a-38cd-4b6d-88e4-2b376fee2077")
+		(lib_id "Power:6-36V to 5V")
 		(members "015cce99-51fa-4746-bcf9-220ddf9a904d" "021b7064-1a40-4d78-ab01-4a97dc491147"
 			"05f7d3ff-b456-48e3-840d-88e3bfac3ca1" "06475fb8-8dbf-4974-9e81-8a1ecedd4e3a"
 			"07bd8def-5ad4-483e-9431-8ac03f058e9f" "0bf9633b-de8b-41cd-a596-eb8304babd0c"
@@ -16398,28 +16398,28 @@
 			"1d2f46bb-b1f3-427b-af0c-785e878c2b43" "217bfeb3-1569-47a2-af7a-fd30ec0b00b4"
 			"255c7d6b-5895-4f1c-ba2b-b4e0aaedde27" "28f2ce1b-3613-4e58-b53d-67015831e554"
 			"29795368-f8f5-43fd-8e39-55c6a6a6f482" "2ba1b662-2c78-40f0-87d5-0e49c9f2cb30"
-			"2bda5d8d-ce5f-4a21-a666-7ed9cd5a86fa" "2e6bb840-9bb3-4f8e-8201-4b800570ca1b"
-			"2f505a51-a519-46c5-9d65-fe0c1c911a24" "30b84a09-9926-4763-9768-77e120a1d26e"
-			"316313bf-6cb9-45f2-9f51-e4d2007186cf" "353f3c72-3e24-45bc-9030-c34380c8c6f9"
+			"2bda5d8d-ce5f-4a21-a666-7ed9cd5a86fa" "2f505a51-a519-46c5-9d65-fe0c1c911a24"
+			"30b84a09-9926-4763-9768-77e120a1d26e" "316313bf-6cb9-45f2-9f51-e4d2007186cf"
+			"353f3c72-3e24-45bc-9030-c34380c8c6f9" "3601a9d9-1f3c-42cc-9a86-1d96eaa1b3ab"
 			"3632bb46-f454-4ddb-bee6-486e029209d1" "399e7ebc-1609-43fa-a275-c090f84ea0ff"
 			"3ce53828-6f24-47e7-9d08-97ac5bdbd636" "3d9bc47c-00b7-4aa4-9471-b338b6042f5d"
 			"41d86c05-3122-468e-8dec-11f234813558" "4205cbd4-fe65-4c5f-a814-653d191a4477"
-			"43046b0b-9eb4-4a73-a201-5b70c0cb6000" "46cf6c8f-e4ae-4b4e-97cb-9ec82f73b522"
-			"4a9124a8-3e44-40b6-bafd-2a2820c67ee1" "52ae696b-ae90-4edb-8ddf-84fc4dc5b969"
-			"5773e688-8bcc-4175-b323-0b4f75449a69" "58c72880-1bd6-485f-b630-898f1f58a22b"
-			"58dbfaca-6414-493d-b978-8b1930d04cce" "624d1f0e-959c-44cc-844f-c92d55d64092"
-			"65adaad6-1c6f-48b8-9ff7-b459dd806b4b" "65ce76ca-1532-47d3-9c4a-4a6c97ae21be"
-			"68ee1d6a-668a-412a-98d6-8e77797fc4b2" "6b1f4c76-62a4-4d1e-9aae-7e22f0c4a51c"
-			"6df6ea9f-cf0f-42e7-bc6c-47926196f895" "6febf9aa-4a76-4b1f-9656-7f16ac06b103"
-			"6ff20c53-8dee-49f2-a87d-5e0dd46a500e" "734bb18c-6dda-41c9-aa46-c92dbba116cd"
-			"73b78cc9-cb23-4127-b921-687247853c1d" "75725e9e-9365-4dac-ae1a-fbc5001f3e5b"
-			"77b0bec0-7dbc-4b11-9a31-b8771a47d78c" "7c4d9106-c7f0-40cd-9298-5de1d26a27f0"
-			"7e6f23aa-275f-435f-8163-dc03bc770e7b" "822deb5f-cdb0-467e-adb0-4340dfa7c796"
-			"841c7246-36ca-4698-b1a9-122a2186329c" "883bbdaa-e3fb-4e6e-ad0a-df82c8e33a9b"
-			"896e9133-dd59-4510-92c1-7730c15a06b5" "8c58d001-5873-4d14-bd61-6540a6a3bd00"
-			"8ce320fc-47e3-4a34-b45a-80088bd70345" "8f4b900d-ace8-4d64-b999-62471aa9f283"
-			"90047d39-a71e-4a62-ae0b-577c21253f81" "93140faf-1fb5-42db-9910-a8131cc62ae4"
-			"948b5871-6ad1-401b-9dc0-1a9f2586f409" "99430f75-7392-4b34-80c0-3e9178b963b0"
+			"43046b0b-9eb4-4a73-a201-5b70c0cb6000" "4a9124a8-3e44-40b6-bafd-2a2820c67ee1"
+			"52ae696b-ae90-4edb-8ddf-84fc4dc5b969" "5773e688-8bcc-4175-b323-0b4f75449a69"
+			"58c72880-1bd6-485f-b630-898f1f58a22b" "58dbfaca-6414-493d-b978-8b1930d04cce"
+			"624d1f0e-959c-44cc-844f-c92d55d64092" "65adaad6-1c6f-48b8-9ff7-b459dd806b4b"
+			"65ce76ca-1532-47d3-9c4a-4a6c97ae21be" "68ee1d6a-668a-412a-98d6-8e77797fc4b2"
+			"6b1f4c76-62a4-4d1e-9aae-7e22f0c4a51c" "6df6ea9f-cf0f-42e7-bc6c-47926196f895"
+			"6febf9aa-4a76-4b1f-9656-7f16ac06b103" "6ff20c53-8dee-49f2-a87d-5e0dd46a500e"
+			"734bb18c-6dda-41c9-aa46-c92dbba116cd" "73b78cc9-cb23-4127-b921-687247853c1d"
+			"75725e9e-9365-4dac-ae1a-fbc5001f3e5b" "77b0bec0-7dbc-4b11-9a31-b8771a47d78c"
+			"7c4d9106-c7f0-40cd-9298-5de1d26a27f0" "7e6f23aa-275f-435f-8163-dc03bc770e7b"
+			"822deb5f-cdb0-467e-adb0-4340dfa7c796" "841c7246-36ca-4698-b1a9-122a2186329c"
+			"883bbdaa-e3fb-4e6e-ad0a-df82c8e33a9b" "896e9133-dd59-4510-92c1-7730c15a06b5"
+			"8c58d001-5873-4d14-bd61-6540a6a3bd00" "8ce320fc-47e3-4a34-b45a-80088bd70345"
+			"8f4b900d-ace8-4d64-b999-62471aa9f283" "90047d39-a71e-4a62-ae0b-577c21253f81"
+			"93140faf-1fb5-42db-9910-a8131cc62ae4" "948b5871-6ad1-401b-9dc0-1a9f2586f409"
+			"99430f75-7392-4b34-80c0-3e9178b963b0" "9a3c0377-3266-465a-a065-3c1a24aafeda"
 			"9ea5adcf-b136-4a64-9edc-1caa257cb3bb" "9fc9d8ea-4bfe-4cc4-800d-30af862ce082"
 			"a00eea08-8bb1-4e62-8027-540d04b85e24" "a4947813-4790-4637-9b39-5fc6f49e4e49"
 			"a4a43962-597a-4a6f-aba2-51f407f36601" "a4edef78-82ed-459f-99f0-7f7ad9b81ce8"
@@ -16428,8 +16428,8 @@
 			"bba48a0e-5f0b-43bf-983e-328727c8ae15" "bc9afa3c-3f80-4350-84d4-ad1461e9f57c"
 			"bdfd8e83-a61c-4ba3-922a-eaf469a0f65b" "be940a69-4139-4453-b0c2-015415ad3473"
 			"c0828e7d-ebb9-4b81-9dce-b70288e0d52a" "c119e22c-c0c8-4518-82a1-24e488336d00"
-			"cbca1e4c-6632-4178-8f9d-d58416c6d296" "cd82f4ab-4e6e-4f86-9442-7ec0ec6a6d16"
-			"cfa930ff-2e7e-4372-96fd-1549765bd8bb" "d0e8e107-e35b-4713-88ce-7a7cbcec10f6"
+			"cbca1e4c-6632-4178-8f9d-d58416c6d296" "cfa930ff-2e7e-4372-96fd-1549765bd8bb"
+			"d0e8e107-e35b-4713-88ce-7a7cbcec10f6" "d174bad4-8a69-4239-b7c1-bc5b41a52349"
 			"d1d00e74-9ddb-4bad-b2ac-2e9078ce6c85" "d268aeb0-f8fc-410b-8d4e-c60ef858c435"
 			"d54311f5-7332-4be8-9223-9893a3ca5e0d" "dd51b76f-027d-4d99-83fe-f4425921e331"
 			"dec73a7d-f596-4a3f-a0e1-ae5334819117" "e4aa4def-045a-4d7f-9d65-832ac7e0000f"
@@ -16440,6 +16440,11 @@
 			"f1bd82cd-bec8-4b51-8932-2f2dd4512229" "f2fc7ce1-ae08-4c97-b19f-0bb48ea12306"
 			"f90ef935-2d7a-49e9-a040-364e0e1d645c" "fe358851-0335-4314-871f-b84dd0ea9aa6"
 		)
+	)
+	(group "6-36V to 5V "
+		(uuid "f1c15749-d4aa-4d2f-91fd-8cb419c25c0d")
+		(lib_id "Power:6-36V to 5V ")
+		(members "ec9b6d2a-38cd-4b6d-88e4-2b376fee2077")
 	)
 	(sheet_instances
 		(path "/"
